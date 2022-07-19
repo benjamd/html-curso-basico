@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementos Básicos HTML</title>
+  </head>
+ <!-- <body style='background-color: powderblue'> -->
+ <body>    
+    <h1 style="color: blue ; font-size: 69px; font-family: 'Courier New', Courier, monospace;">Título</h1>
+    <h2 >Título</h2>
+    <h3>Título</h3>
+    <h4>Título</h4>
+    <h5>Título</h5>
+    <h6>Título</h6>
+
+    <!-- <p> se usa para parrafos agrega saltos de linea 
+    <br> el el tag para salto de linea 
+    <hr> añade una linea divisiria (horizontal) -->
+
+    <p>
+      Primer Parrafo linea 1<br />
+      linea 2
+    </p>
+    <hr />
+    <p>
+      Segundo Parrafo linea 1<br />
+      linea 2
+    </p>
+
+    <!-- <a> para links, el atributo href="" se indica la pagina destino y entre los tags el nombre del link a mostrar. 
+   usar target="_blank" para abrir una nueva pestaña.
+    <a> no hace salto de linea -->
+
+    <a href="https://www.google.com" target="_blank">Ir a google</a>
+    <a href="pagina1.html">Ir a pagina 1</a>
+    <a href="mailto:help@holamundo.com.xyz?subject=Contacto&body=prueba email">Enviar Email</a>    
+    <!-- <img> width y heigth para ancho y altura, si se pone un solo valor el otro se autoregula para que la imagen se vea bien
+title es el titulo a mostrar de la imagen, alt se muestra cuando no se carga la imagen-->
+
+    <img
+      src="imagenes/html5.png"
+      alt="Logo HTML5"
+      width="100px"
+      height="30px"
+    />
+    <img src="imagenes/css3.png" alt="Logo CSS3" width="100px" />
+    <img
+      src="imagenes/javascript.png"
+      alt="Logo Javascript"
+      height="100px"
+      title="JAVASCRIPT"
+    />
+
+    <!-- el parrafo no respeta los espacios o saltos de nueva linea (enter) -->
+    <p title="NUEVO PARRAFO" style="color: rgb(255, 0, 0)">un nuevo parrafo</p>
+   
+    <!-- para visualizar tal cual es editado el texto usar <pre> que 
+        significa preformated, o sea para poner un formato pre establecido-->
+    <pre>          
+           Este 
+        es           un
+          nuevo 
+
+               parrafo 
+    </pre>
+    <hr>
+
+    <!-- <b> se usa para poner el texto en negrita, <stong> se usa para 
+        resaltar un texto importante, tiene diferencias semanticas aunque en el navegador se 
+    vean igual -->
+    <p> <b>Primer</b> parrafo de texto</p>
+    <p> <strong>Segundo</strong> parrafo de texto</p>
+
+     <!-- <i> para letra cursiva o italica, 
+         <em> se una para enfatizar, semanticas diferentes
+         y mismo resultado visual-->   
+    <p><i>Tercer parrafo de texto</i></p>
+    <p><em>Cuerto  parrafo de texto</em></p>
+
+    <!-- <small> para texto pequeño, <mark> para señalar o marcar texto y
+        <del> para mostrar texto como tachado o eliminado  -->
+    <p><small>Quinto parrafo de texto</small> </p>
+    <p><mark>Sexto parrafo de texto</mark></p>
+    <p><del>Septimo parrafo de texto</del></p>
+
+    <!-- <ins> se usa para insertar (se visualiza subrayado),
+     <sub> para marcar subindices y <sup> se usa para superindices,
+         <code> para codigo de programacion -->
+    <p><ins>Octavo parrafo de texto</ins></p>
+    <p>Noveno parrafo de texto: H<sub>2</sub>O</p>
+    <p>Decimo parrafo de texto: E = MC<sup>2</sup></p>
+    <p><code>Onceavo parrafo de texto</code></p>
+   
+    <!-- Referencia de caracteres, por ej. sirve para visualizar caracteres 
+     reservados de lenguajes de programacion como < > = 
+    referencia: https://www.htmlquick.com/es/reference/character-entity-reference.html
+    -->
+    <p> &excl; signo de exclamacion &excl ;</p>
+    <p> &#x00021; signo de exclamacion hexa &#x00021 ;</p>
+    <p> &#33; signo de exclamacion decimal &#33 ;</p>
+    <p>menor: &lt; <br> mayor: &gt;</p>
+    
+
+
+</body>
+</html>
